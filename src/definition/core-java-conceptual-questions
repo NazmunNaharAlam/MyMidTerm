@@ -1,0 +1,121 @@
+Please answer the below core-java Questions:
+
+
+What jdk contains or composed of and define each components?
+Ans: jdk composed of JRE and Jvm. JRE is java run time environment and JVM is java virtual machine.
+What is IDE?
+Integrated Development environment.
+What are the IDEs available in the market to support java?
+ans:1. NetBeans
+2.Intellij IDEA
+3.Eclipse
+4.JDeveloper
+5.Android Studio
+6.DrJava
+7.MyEclipsJGrasp
+8.JEdit
+9.BlueJ
+Explain the entire java life cycle.
+Ans: we write sourc code in in Eclipse and this sourc code convert to byte code through java compiler. This is called class
+Then JVM send the informaation to the operating system which shows our output.
+what is class?
+Ans: A class is a blue print that describes the behavior that the objects of its type support.
+What is object?
+Ans:object is an instance of a class.
+What is the entry point of an application?
+Ans: An entry point is where control is transferred from the operating system to a computer program. at which place processor enter
+a program  or a code and then the execution started.
+Why main is static?
+Ans: The main method is static because JVM can call it without creating any instance of a class which contains the
+main method.
+What is the difference between an Interface and Abstract class?
+Interface does not have any implementation of the method. But in Abstract class Some method can be implemented.
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+NO, because of the unimplemented method.
+what is Access Specifier?
+Access Specifier regulates access to classes, fields and method in java. it determine whether a field or method in a class
+can be used or invoked by another method in another class or sub-class. it can be used to restrict classes.
+What is OOP ? Define each feature of java OOP.
+it is a methodology to design a program using class and objects.
+Inheritance
+polymorphism
+Abstraction and
+encaptulation.
+What is API? Name list of API that you have used so far.
+Application programming interface. Scanner, String, System, linked list, Array list, Hashmap, etc
+Does java support multiple inheritance?
+No
+What is method overloading and when it happens?
+Ans: overloading allows a class to have two or more method having same but arguments are different. it happens in compile
+time.
+overriding:Declaring a method in sub class which is already present in parent class. it happen in run time.
+Explain exceptions in java and how to handle it.
+Ans: an exception is a problem that arises during the execution of a program. we can use try-catch, nested try-catch,
+to handle it.
+What is static keyword in java? How it has been used in variables and methods ?
+The static key word means that the variable or function is shared between all instances of that class as
+it belongs to the type,not actual object themslves.
+What is final and how it has been used variables and methods?
+Ans: final is a keyword that is use for method and variable and that can not change.
+What is final, finally and finalize?
+
+Ans: Final is used to apply restrictions on class method and variable.it is a key word.
+finally is used to place important code, it will be executed whether exception is handled or not. its a block.
+Finalize is used to perform clean up processing just before object is garbage collected. Its a method.
+
+What is a constructor ?
+It is a block of code similar to method thats called when instance of an object is created.
+What is "this" keyword in java ?
+Ans:it is a refference variable that refer current object.
+What is "super" keyword in java?
+it is used to refer immediate parents class instance variable.
+What is JVM stand for ?
+java virtual machine
+What version of java are you using?
+Ans:1.1
+What is JAR stand for ?
+Java Archive
+What is compile time and run time?
+ Ans: the compliation process of sourcecode is reffered as compile time.  when the application is running is called
+ runtime.
+What is heap?
+java object reside in a area called heap.
+How java manage it's memory?
+Ans:Garbage collection
+What is the difference between String, StringBuffer and StringBuilder?
+Ans:String is immutable object, if object is created once,can not be changed object.
+StringBuffer is mutable.It is Syncrinized that is thread safe.
+StringBuilder is mutable but not thread safe.
+What is Singleton class?
+Ans:In object-oriented programming, a singleton class is a class that can have only one
+object (an instance of the class) at a time.
+What is Serialization and Deserialization?
+Ans:Serialization is a process of converting an object into a sequence of bytes which can be persisted to a disk or
+database or can be sent through streams. The reverse process of creating object from sequence of bytes is called
+Deserialization.
+Which one will take more memory, an int or Integer?
+Ans:Integer
+Why is String Immutable in Java?
+Ans: Because we can not change the object.
+What is constructor chaining in Java?
+Ans:Calling one constructor from other is called Constructor chaining in Java.
+The difference between Serial and Parallel Garbage Collector?
+Ans:serial garbage collector mainly designed for single-threaded environments and for small heaps.
+parallel is JVM’s default collector. this is uses multiple threads to scan through and compact the heap.
+What is JIT stands for?
+Ans: JIT stands for just in time compilation.
+Explain Java Heap space and Garbage collection?
+Can you guarantee the garbage collection process?
+The name "garbage collection" implies that objects that are no longer needed by the program are
+ "garbage" and can be thrown away. A more accurate and up-to-date metaphor might be "memory recycling
+ " When an object is no longer referenced by the program, the heap space it occupies must be recycled so that the
+  ans:space is available for subsequent new objects. The garbage collector must somehow determine which objects are no longer referenced by the program and make available the heap space occupied by such unreferenced objects. In the process of freeing unreferenced objects,
+ the garbage collector must run any finalizers of objects being freed.
+What is the difference between stack and heap in Java?
+ce between Java Heap Space and Stack Memory. ... Whenever an object is created, it's always stored n
+the Heap space and stack memory contains the reference to it. Stack memory only contains local primitive variables
+and reference variables to objects in heap space.
+cbetween Java Heap Space and Stack Memory. ... Whenever an object is created,
+it's always stored in the Heap space and stack memory contains the reference to it.
+ Stack memory only contains local primitive variables and reference variables to objects in heap space.
+
